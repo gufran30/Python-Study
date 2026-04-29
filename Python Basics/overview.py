@@ -8,6 +8,8 @@
 
 # Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
 
+# ============================================================================================
+
 
 # Characteristics of Python :
 
@@ -17,6 +19,7 @@
 #   - can be compiled to byte-code for building large applications.
 #   - can be easily integrated with other languages like C, C++, Java, etc.
 
+# ============================================================================================
 
 
 # Applications of Python :
@@ -26,6 +29,8 @@
 #   - Computer Vision and Image processing
 #   - It is also favored in many tasks like Automation, Job Scheduling, GUI development, etc.
 
+
+# ============================================================================================
 
 
 # Pythonic Code Style :

@@ -9,12 +9,12 @@ print ("Hello, World!") # Second comment
 This is a multiline
 comment.
 '''
-
+# ============================================================================================
 
 # Python code to print "Hello, World!"
 print ("Hello, World!")
 
-
+# ============================================================================================
 
 # Python Variables :
 
@@ -31,12 +31,18 @@ print(counter)
 print(miles)
 print(name)
 
+# ============================================================================================
+
+
 # deleting python variables
 # counter = 100
 # print(counter)
 
 # del counter
 # print(counter) # this will produce this error -> NameError: name 'counter' is not defined
+
+
+# ============================================================================================
 
 
 # How to get type of a variable ?
@@ -48,6 +54,8 @@ print(type(x)) # <class 'str'> -> means string type data
 print(type(y)) # <class 'int'> -> means integer type data
 print(type(z)) # <class 'float'> -> means float(decimal) type data
 
+
+# ============================================================================================
 
 
 # Type Casting (or type conversion) in  Python variables :
@@ -63,6 +71,9 @@ print( "y =", y )
 print( "z =", z )
 
 
+# ============================================================================================
+
+
 
 # Case Sensitivity of variables :
 
@@ -73,6 +84,9 @@ Age = 30
 
 print("age =", age) # 20
 print("Age =", Age) # 30
+
+
+# ============================================================================================
 
 
 
@@ -92,6 +106,9 @@ a,b,c = 1,2,"Gufran"
 print (a)   # 1
 print (b)   # 2
 print (c)   # Gufran
+
+
+# ============================================================================================
 
 
 # Python variable naming convention (Rule to declare variables) :
@@ -127,6 +144,7 @@ print (Age)                # 20
 print (gufran_salary)      # 100000
 
 
+
 # # Invalid python variables:
 
 # 1counter = 100
@@ -145,6 +163,9 @@ print (gufran_salary)      # 100000
 # # SyntaxError: invalid syntax
 
 
+# ============================================================================================
+
+
 
 # Benifits of variable :
 
@@ -158,6 +179,9 @@ print ("Area = ", area)             # Area = 200
 print ("Perimeter = ", perimeter)   # Perimeter = 60
 
 
+# ============================================================================================
+
+
 
 # Python Local Variables :
 
@@ -169,6 +193,9 @@ def sum(x,y):
    return sum
 
 print(sum(5, 10))   # 15
+
+
+# ============================================================================================
 
 
 
@@ -186,6 +213,8 @@ def sum():
 print(sum())    # 15
 
 
+# ============================================================================================
+
 
 # Constants in Python :
 #   - Python doesn't have any formally defined constants, 
@@ -195,6 +224,8 @@ print(sum())    # 15
 #       - the name PI_VALUE indicates that :
 #           - you don't want the variable redefined or changed in any way.
 
+
+# ============================================================================================
 
 
 # Python vs C/C++ Variables :

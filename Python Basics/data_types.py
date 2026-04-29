@@ -8,6 +8,9 @@
 #       - the data type of a variable is determined at runtime based on the assigned value.
 
 
+# ============================================================================================
+
+
 # Types of Data Types in Python :
 
 # Python supports the following built-in data types −
@@ -39,6 +42,7 @@
 # None Type
 
 
+# ============================================================================================
 
 
 # 1. Python Numeric Data Types
@@ -65,6 +69,9 @@ d = 10+3j
 print("The type of variable having value", d, " is ", type(d))  # <class 'complex'> means complex type
 
 
+# ============================================================================================
+
+
 
 # 2. Python String Data Type :
 
@@ -79,6 +86,10 @@ print (str[2:5])     # Prints characters starting from 3rd to 5th
 print (str[2:])      # Prints string starting from 3rd character
 print (str * 2)      # Prints string two times
 print (str + "TEST") # Prints concatenated string
+
+
+# ============================================================================================
+
 
 
 # 3. Python Sequence Data Types :
@@ -173,6 +184,7 @@ for i in range(1, 5, 2):
 
 
 
+# ============================================================================================
 
 
 
@@ -186,6 +198,10 @@ for i in range(1, 5, 2):
 #   - bytes
 #   - bytearray
 #   - memoryview
+
+
+# ============================================================================================
+
 
 
 # 5. Python Dictionary Data Type
@@ -210,6 +226,10 @@ print (tinydict.keys())   # Prints all the keys
 print (tinydict.values()) # Prints all the values
 
 
+# ============================================================================================
+
+
+
 # 6. Python Set Data Type
 #   - Set is a Python implementation of set as defined in Mathematics.
 #   - A set in Python is a collection, but is not an indexed or ordered collection as string, list or tuple.
@@ -219,6 +239,11 @@ set2 = {'Java', 'Python', 'JavaScript'}
 
 print(set1) # {123, 452, 5, 6}
 print(set2) # {'Python', 'JavaScript', 'Java'}
+
+
+# ============================================================================================
+
+
 
 # 7. Python Boolean Data Type
 #   - Python boolean type is one of built-in data types which represents one of the two values either True or False. 
@@ -238,6 +263,10 @@ print(bool(a==b))
 
 # Following also prints the same
 print(a==b)
+
+
+# ============================================================================================
+
 
 
 # 8. Python None Type
